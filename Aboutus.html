@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoilPh™ - About Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            line-height: 1.6;
+            text-align: center;
+            overflow-x: hidden;
+            background: #f4f4f4; /* Background color */
+        }
+
+        /* Navbar */
+        header {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            z-index: 1000;
+        }
+
+        header h1 {
+            color: white;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Hero Section (Background) */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                        url('https://www.proterrafoundation.org/wp-content/uploads/2022/10/soil-degradation-and-salinization.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* About Us Section */
+        .about-us-section {
+            background-color: #ffffff; /* Light background for About Us section */
+            padding: 50px 20px;
+            margin-top: 80px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .about-us-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about-us-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        /* Team Section */
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .team-member {
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .team-member .quote {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>SoilPh™</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="Aboutus.html">About Us</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Background) -->
+    <section class="hero">
+        <div>
+            <h2>About Us</h2>
+            <p>Learn more about our mission, vision, and the passionate team behind SoilPh™.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us-section">
+        <h2>Our Mission & Vision</h2>
+
+        <div class="mission-vision">
+            <h3>MISSION</h3>
+            <p>To offer farmers and agricultural enterprises a distinctive litmus-strip type semi-digital soil pH monitoring solution that yields rapid, cost-effective, and precise findings for enhanced soil and crop management.</p>
+            
+            <h3>VISION</h3>
+            <p>To establish a reliable partnership in contemporary agriculture by providing new, user-friendly soil pH monitoring equipment that enhances productivity, sustainability, and decision-making in farms and agricultural enterprises.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 1">
+            <h3>John Doe</h3>
+            <p>CEO</p>
+            <p class="quote">"The future of agriculture is in our hands. Together, we can cultivate success."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 2">
+            <h3>Jane Smith</h3>
+            <p>CTO</p>
+            <p class="quote">"Innovation and sustainability are the key to feeding the world in the future."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 3">
+            <h3>Michael Brown</h3>
+            <p>COO</p>
+            <p class="quote">"Efficiency and sustainability go hand in hand when it comes to soil health."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 4">
+            <h3>Emily Davis</h3>
+            <p>CFO</p>
+            <p class="quote">"A strong financial foundation enables us to make a real impact on agriculture."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 5">
+            <h3>James Wilson</h3>
+            <p>Marketing Head</p>
+            <p class="quote">"Creating awareness about soil health is a step toward global sustainability."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 6">
+            <h3>Sarah Johnson</h3>
+            <p>Lead Agronomist</p>
+            <p class="quote">"Healthy soil leads to healthy crops, and healthy crops lead to a healthier world."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 7">
+            <h3>David Lee</h3>
+            <p>Research Director</p>
+            <p class="quote">"Our research today is the future of farming tomorrow."</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/200" alt="Member 8">
+            <h3>Linda Martinez</h3>
+            <p>Product Specialist</p>
+            <p class="quote">"It's all about improving the lives of farmers with smarter solutions."</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SoilPh™. All Rights Reserved. | <a href="Privacy.html" style="color: white; text-decoration: none;">Privacy Policy</a> | <a href="Terms.html" style="color: white; text-decoration: none;">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
